@@ -1,0 +1,38 @@
+form {
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+label {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+textarea {
+    /* -- Se puede poner horizontal, both y vertical -- */
+    resize: vertical;
+    /* -- Tamaño de la caja -- */
+    max-height: 300px;
+    min-height: 100px;
+}
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+input:focus, textarea:focus {
+    border: 1px solid #F1C40F;
+}
+input[type="submit"] {
+    margin-bottom: 0px;
+    background-color: #ff8000;
+    color: #000;
+    border: none;
+}
+input[type="submit"]:hover {
+    background-color: #0046FF;
+    cursor: pointer;
+}
