@@ -1,0 +1,143 @@
+<html>
+    <head> 
+        <title>Curso HTML</title>
+        <link rel="shortcut icon" href="images/grizzly2.jpg" type="image/x-icon">
+        <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+        <meta name="keywords" content="diseño, desarrollo, html">
+        <!--Para unir con CSS: link rel="stylesheet" href=""-->
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <!--Encabezados (headers)-->
+        <h1>Título principal</h1>
+        <!--Párrafos-->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>neque non dolorum quam nobis quo </b>, voluptates qui vel. Amet, <strong>enim laborum ut mollitia vel necessitatibus delectus quia quas placeat optio?</strong>
+        </p>
+        <!--Líneas horizontales-->
+        <hr>
+        <h2>Subtítulo</h2>
+
+        <p>
+            <!--Citas-->
+            <blockquote>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit doloribus nostrum doloremque laboriosam porro sint alias autem voluptatibus molestiae consectetur accusamus eligendi, earum iste tempore ea ratione asperiores delectus.
+        </blockquote>
+        <!--Autor de las citas-->
+            <cite>Erick Llanos Ríos</cite>
+        </p>    
+        
+        <!--Enlaces-->
+        <a href="https://www.facebook.com/erickllanosr" target="_blank">Página Facebook</a> <br>
+        <a href="images/grizzly.png" target="_blank">Foto grizzly</a>
+
+        <hr>
+
+        <!--Listas ordenadas, desordenadas y dentro de una lista-->
+        <ol>
+            <li>ítem núm. 1</li>
+            <li>ítem núm. 2</li>
+            <li>ítem núm. 3</li>
+        </ol>
+
+        <ul>
+            <li>ítem núm. 1</li>
+            <li>ítem núm. 2</li>
+            <li>ítem núm. 3</li>
+        </ul>
+
+        <ul>
+            <li>ítem núm. 1</li>
+            <ul>
+                <li>ítem núm. 2 dentro de una lista</li>
+            </ul>
+            <li>ítem núm. 2</li>
+        </ul>
+    <hr>
+    <!--Imágenes-->
+    <img src="images/grizzly.png" width="480" height="240" alt="Grizzly" title="Grizzly">
+    
+    <hr>
+
+    <!--Tablas-->
+    <table>
+        <tr>
+            <td>Elemento #1</td>
+            <td>Elemento #2</td>
+            <td>Elemento #3</td>
+        </tr>
+        <tr>
+            <td>Elemento #4</td>
+            <td>Elemento #5</td>
+            <td>Elemento #6</td>
+        </tr>
+        <tr>
+            <td>Elemento #7</td>
+            <td>Elemento #8</td>
+            <td>Elemento #9s</td>
+        </tr>
+
+    </table>
+
+    <table>
+            <tr>
+                <td>Columna No.1/ Fila No.1</td>
+                <td>Columna No.2/ Fila No.1</td>
+                <td>Columna No.3/ Fila No.1</td>
+                <td>Columna No.4/ Fila No.1</td>
+            </tr>
+<br/>
+            <tr>
+                <td>Columna No.1/ Fila No.2</td>
+                <td>Columna No.2/ Fila No.2</td>
+                <td>Columna No.3/ Fila No.2</td>
+                <td>Columna No.4/ Fila No.2</td>
+            </tr>
+<br/>
+            <tr>
+                <td>Columna No.1/ Fila No.3</td>
+                <td>Columna No.2/ Fila No.3</td>
+                <td>Columna No.3/ Fila No.3</td>
+                <td>Columna No.4/ Fila No.3</td>
+            </tr>
+<br/>
+            <tr>
+                <td>Columna No.1/ Fila No.4</td>
+                <td>Columna No.2/ Fila No.4</td>
+                <td>Columna No.3/ Fila No.4</td>
+                <td>Columna No.4/ Fila No.4</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <!--Formularios-->
+        <p>El atributo action dentro de la etiqueta form, se encarga de recibir la url/link donde estén alojados los datos.</p>
+       
+        <form>
+            <!--En el atributo 'for', tiene que ir el mismo valor de 'id'-->
+            <h2>type="text"</h2>
+            <label for="nombre">Ingresa tu nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe aquí..." maxlength="15"> <br>
+            <h2>type="password"</h2>
+            <label for="clave">Ingresa tu clave: </label>
+            <input type="password" id="clave" placeholder="Escribe aquí...">
+            <br>
+            <h2>type="button"</h2>
+            <input type="button" value="Enviar">
+            <h2>type="submit"</h2>
+            <p>El type="submit" sí envía los datos.</p>
+            <input type="submit" value="Enviar input">
+            
+            <br>
+            <h2>etiqueta select</h2>
+            <select name="" id="">
+                <option value="Mexico">México</option>
+                <option value="Sudafrica">Sudáfrica</option>
+                <option value="Alemania">Alemania</option>
+            </select>
+        </form>
+
+
+    </body>
+</html>

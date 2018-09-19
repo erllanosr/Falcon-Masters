@@ -1,0 +1,48 @@
+/* El asterisco es un selector universal y se utiliza para cambiar todo el documento.
+*{
+    margin: 0;
+    padding: 0;
+    color: red;
+}  */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Selector de etiqueta */
+h2 {
+    color: red;
+}
+/* Si queremos que todos los h sufran los cambios, haríamos lo siguiente: */
+h1, h2, h3, h4, h5, h6 {
+    color: chocolate;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+p {
+    color: cornflowerblue;
+}
+
+p a {
+    font-size: 40px;
+    color: greenyellow;
+}
+
+p .green {
+    color: green;
+}
+
+a [href="https://www.facebook.com/erickllanosr"] {
+    color: blueviolet;
+}
+
+div p {
+    background-color: goldenrod;
+    color:white;
+    width: 200px;
+}
+/* Visitar https://htmlcolorcodes.com/es/ para ver tabla de colores */

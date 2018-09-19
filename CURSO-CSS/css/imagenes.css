@@ -1,0 +1,14 @@
+div {
+    width: 100%;
+}
+
+img {
+    width: 480px;
+    /* -- Para centrar una imagen usamos margin:auto y display:block -- */
+   /* --  margin: auto; -- */
+    display: block;
+    border-radius: 10px;
+    /* -- box-shadow: 5px 5px 0px #000; -- */
+    padding: 20px;
+    border: 2px solid #000;
+}

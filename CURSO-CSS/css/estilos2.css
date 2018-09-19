@@ -1,0 +1,24 @@
+/* div {
+    width: 300px;
+    height: 120px;
+    background-color: #ff8000;
+    margin: 20px 50px;
+    padding: 30px;
+    border: 10px solid #000;
+    display: inline-block;
+} */
+
+body {
+    color: #fff;
+    background: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0;
+    
+} 
+
+/* div {
+    color: #fff;
+    background: url(../images/fondo2.jpg);
+    height: 200px;
+} */
